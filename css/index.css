@@ -4,7 +4,9 @@ body{
 #header{
     background-color: gray;
 }
-#main{}
+#main{
+    /* height: 70vh; */
+}
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
@@ -32,7 +34,7 @@ body{
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
+  background-color: rgb(75,76,155);
   color: #F2F2F2;
 }
 
@@ -60,6 +62,7 @@ body{
 }
 #footer{
     background-color: rgb(36,34,80);
+    height: 30vh;
 }
 #footer .section1{
     background-color: rgb(86,86,110);

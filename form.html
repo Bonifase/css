@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/index.css"> 
+    <script src="js/utils.js"></script>
     <title>Contact</title>
 </head>
 <body>
-    <div id="header"></div>
+    <header id="header">
+        <div class="header">
+            <a href="#default" class="logo">CompanyLogo</a>
+            <div class="header-right">
+                <a class="link-item" href="/index.html">Home</a>
+                <a class="link-item" href="form.html">Contact</a>
+                <a class="link-item" href="about.html">About</a>
+            </div>
+        </div>
+    </header>
     <form method="GET" action="/processor">
      <h1>Buy Tickets to the Web Developer Gala</h1>
      <p>Tickets are $10 each. Dinner packages are an extra $5. All➥ fields are required.</p>
@@ -64,12 +74,13 @@
 </form> 
 <div id="footer"></div>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/utils.js"></script>
     <script> 
     $(function(){
-        $("#header").load("header.html"); 
-        $("#footer").load("footer.html"); 
+        $("#footer").load("footer.html");       
     });
     </script> 
+    
 </body>
 </html>
 
