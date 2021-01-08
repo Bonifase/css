@@ -1,4 +1,6 @@
-body{}
+body{
+    background-color: #F2F2F2;
+}
 #header{
     background-color: gray;
 }
@@ -6,14 +8,14 @@ body{}
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: rgb(36,34,80);
   padding: 20px 10px;
 }
 
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -31,12 +33,12 @@ body{}
 /* Change the background color on mouse-over */
 .header a:hover {
   background-color: #ddd;
-  color: black;
+  color: #F2F2F2;
 }
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color:rgb(75,76,155);
   color: white;
 }
 
@@ -57,5 +59,8 @@ body{}
   }
 }
 #footer{
-    background-color: grey;
+    background-color: rgb(36,34,80);
+}
+#footer .section1{
+    background-color: rgb(86,86,110);
 }
