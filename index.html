@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/box.model.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Home</title>
 </head>
 <body>
     <header id="header">
         <div class="header">
-            <a href="#default" class="logo">CompanyLogo</a>
+            <a href="#default" class="logo"><span class="qiuze">Quize</span>App</a>
             <div class="header-right">
                 <a class="link-item" href="/index.html">Home</a>
                 <a class="link-item" href="form.html">Contact</a>
@@ -17,10 +19,24 @@
             </div>
         </div>
     </header>
-    <main id="main">
-        <h1>Home</h1>
-    </main>
-    <div id="footer"></div>
+    <div class="container wrapper p-26 mt-36">
+        <div class="ml-70">
+            <h2 id="number">This is a headline</h2>
+            <p id="question">Lorem ipsum dolor sit amet, consectetur adipisicing ... </p>
+            <ul id="chioces">
+            </ul>
+        </div>
+        <button id="quize-button" class="quize-button mr-70">Next</button>
+    </div>
+    <div><br>
+        <footer id="footer">
+            <div class="section1">
+                section 1
+            </div>
+            Rest of section
+        </footer>
+    </div>
+    
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/utils.js"></script>
     <script> 
