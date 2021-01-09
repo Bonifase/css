@@ -1,3 +1,10 @@
-form h1 { 
+.contact-form{
+    background-color: #fff;
+    padding: 2%;
+}
+.contact-form h1 { 
     color: #009;
+}
+.contact-form p {
+    font-size: 1.18;
 }

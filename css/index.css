@@ -1,12 +1,41 @@
+/* css reset */
+html, body, div, span, audio, video {  
+   margin: 0;  
+   padding: 0;  
+   border: 0;  
+   font-size: 100%;  
+   font: inherit;  
+   vertical-align: baseline; 
+}
+
 body{
     background-color: #F2F2F2;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
 #header{
     background-color: gray;
 }
-#main{
-    /* height: 70vh; */
-}
+
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
