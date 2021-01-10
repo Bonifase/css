@@ -21,12 +21,18 @@
     </header>
     <div class="container wrapper p-26 mt-36">
         <div class="ml-70">
-            <h2 id="number">This is a headline</h2>
-            <p id="question">Lorem ipsum dolor sit amet, consectetur adipisicing ... </p>
-            <ul id="chioces">
-            </ul>
+            <h2 id="number"></h2>
+            <p id="question"></p>
+            <form>
+                <ul id="choices"></ul> 
+            </form>   
         </div>
-        <button id="quize-button" class="quize-button mr-70">Next</button>
+        <div class="button-group mt-100 ">
+            <button id="next-button" class="quize-button mr-70">Next</button>
+            <button id="prev-button" class="quize-button mr-20">Previous</button>
+            
+        </div>
+        
     </div>
     <div><br>
         <footer id="footer">
@@ -40,10 +46,9 @@
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/utils.js"></script>
     <script> 
-    $(function(){
-        $("#footer").load("footer.html"); 
-    });
-    </script> 
-    <!-- <script src="js/utils.js"></script> -->
+        $(function(){
+            $("#footer").load("footer.html"); 
+        });
+    </script>
 </body>
 </html>
